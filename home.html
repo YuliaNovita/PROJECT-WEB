@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Cat Cafe</title>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Links (sit on top) -->
+  <!-- kepala -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-sand">
+    <div class="w3-col s3">
+      <a href="home.html" class="w3-button w3-block w3-sand w3-hover-white">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-sand w3-hover-white">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="menu.html" class="w3-button w3-block w3-sand w3-hover-white">FOODS&DRINKS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="event.html" class="w3-button w3-block w3-sand w3-hover-white">EVENT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Slide foto  -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="img/1.jpg" style="width:100%">
+    <div class="text">Cafe untuk <i>Cat Lovers!</i></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/2.jpg" style="width:100%">
+    <div class="text">Cafe untuk <i>Cat Lovers!</i></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/3.jpeg" style="width:100%">
+    <div class="text">Cafe untuk <i>Cat Lovers!</i></div>
+  </div>
+
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+</script>
+
+<!-- artikel -->
+<div class="w3-content" style="max-width:700px">
+  <p align="justify">Bagi para pecinta kucing pasti udah gak asing lagi dengan namanya kafe kucing. Di Indonesia sendiri sudah banyak kafe kucing yang bermunculan dan menjadi populer beberapa saat. Biasanya di kafe ini kita bisa bermain dengan kucing, nongkrong bersama teman, dan bisa dijadikan tempat untuk mengerjakan tugas loh! </p>
+  <p align="justify">Kafe yang di dalamnya terdapat banyak kucing ini dapat kita jadikan salah satu referensi tempat yang harus kita kunjungi. Di kafe kucing kita dapat mengajak kucing bermain, dielus atau dipegang, ataupun hanya dilihat saja. Untuk pembayaran biasanya kafe kucing mematok harga sesuai dengan lamanya pengunjung berada di kafe tersebut. Kafe kucing sendiri biasanya dikatakan sebagai tempat penyewaan hewan peliharaan.</p>
+  <p align="justify">Kafe kucing pertama di dunia dibuka di Taiwan pada tahun 1998, dengan nama Māo huāyuán. Māo huāyuán terletak di Taipei, dan akhirnya kafe ini menjadi terkenal di Jepang dan mulai menarik banyak wisatawan Jepang serta pengunjung lokal. Di Jepang, kafe kucing pertama bernama Neko no jikan, yang dibuka di Osaka pada tahun 2004.</p>
+  <p align="justify">Setiap kafe pastinya memiliki daya tarik atau keunikan tersendiri baik itu dari tempatnya maupun makanannya. Selain kucing yang menjadi daya tariknya, kafe kucing juga biasanya memiliki desain interior yang menarik dan juga berbagai macam menu andalan dan juga unik yang dapat menjadi daya tarik dan juga identitas dari kafe kucing tersebut.  </p>
+  <div class="w3-panel w3-leftbar w3-light-grey">
+    <p align="center"><i>“I'm happy to just sit in a café, watch people, and play with cats. It's my favorite thing to do, for sure.” </i></p>
+</div>
+
+<img class="img" src="img/5.jpg" style="width:100%">
+<!-- artikel -->
+<div class="w3-content" style="max-width:700px">
+  <p align="justify">Desain interior yang cantik dan bagus untuk berfoto sekarang banyak sekali menjadi incaran para pengunjung. Selain mementingkan keestetikannya, kafe-kafe pastilah berusaha membuat pengunjung agar selalu merasa nyaman dengan fasilitas dan juga suasana yang dapat diberikan oleh kafe itu sendiri. Semakin mengikuti minat dari pasar yang ada maka akan semakin banyak pula pengunjung yang berdatangan ke kafe tersebut. </p>
+  <p align="justify">Untuk para pengunjung tidak perlu merasa khawatir dengan kebersihan kafe kucing. Setiap kafe kucing pastinya selalu memberishkan atau memandikan kucing-kucing yang ada dengan rutin agar para pengunjung tetap merasa nyaman ketika bermain dengan mereka. Untuk buang air, kucing-kucing itu sudah dilatih agar melakukannya di dalam kotak pasir yang sudah disediakan. Selain itu, pasa staff juga akan memantau dan membersihkannya langsung agar pengunjung tetap merasa nyaman. </p>
+  <p align="justify">Bagi kamu yang tinggal di daerah BSD ada kafe kucing yang wajib kamu datangi loh yaitu Calicoffice. Di kafe ini terdapat tujuh ekor kucing dengan beragam jenis yang dapat diajak bermain oleh para pengunjung. Kitty, Kloi, Mr. Loui, Grey, Lily, Gatta, dan Klara adalah nama-nama dari ketujuh kucing yang imut disana. Salah satu kucing yang cukup populer di sana adalah Lily yang merupakan jenis kucing domestik x Persian. Lily cukup populer di kalangan pelanggan karena dia adalah kucing yang friendly dan jarang sekali mengigit atau mencakar pengunjung. Lily adalah anak kucing betinanya Gatta loh. </p>
+  <p align="justify">Kafe ini, memberikan fasilitas yang cukup memadai untuk kucing-kucing seperti mainan, tempat untuk tidur, serta tempat untuk mereka memanjat kesana kemari. Mereka membiarkan kucing-kucing tersebut berkeliaran dengan bebas di dalam kafe tersebut. Kucing-kucing dapat bermain, memanjat, dan tidur di kafe itu. Pengunjung dapat bermain serta berfoto dengan mereka. Pengunjung diharapkan dapat memperlakukan kucing-kucing dengan baik agar kucing yang ada tidak terluka atau stres. </p>
+</div>
+</div>
+
+<center>
+  <footer>
+    <center><h3>Alfrido</h3>
+      <h5>Contact Me :</h5>
+    </center>
+    <!-- footer -->
+    <div class="icon-bar">
+      <a href=" http://twitter.com/im_alfrd"><i class="fa fa-twitter"></i></a>
+      <a href=" mailto:alfridoadoo@gmail.com"><i class="fa fa-envelope"></i></a>
+      <a href="http://facebook.com/alfridoado"><i class="fa fa-facebook"></i></a>
+      <a href="http://www.youtube.com/channel/UCkZFN-AcAiVFDay22Z6xm3g"><i class="fa fa-youtube"></i></a>
+      <a href="http://www.instagram.com/alfridoado"><i class="fa fa-instagram"></i></a>
+    </div>
+  </footer>
+  </center>
+
+</body>
+</html>
